@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'Roboto', sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+h1, h2, h3 {
+  font-family: 'Francois One', sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #3c4f76;
+}
+
+a {
+  color: #3c4f76;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+a:hover {
+   color: #3c4f76;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 500px;
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto 15 auto;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px rgb(0,0,0,0.8);
+  text-align: center;
+}
+
+.card p {
+  text-align: left;
+}
+
+.img-avatar {
+  width: 150px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.img-movies {
+  width: 150px;
+  height: 150px;
+  margin: 10px 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  .container {
+  width: 700px;
+  margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+  width: 500px;
+  margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+  width: 300px;
+  margin: 0 auto;
+  }
+}
